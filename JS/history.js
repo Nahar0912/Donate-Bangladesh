@@ -1,14 +1,10 @@
-document.getElementById('show-history-btn').addEventListener('click', function () {
-    const historySection = document.getElementById('history-section');
-    const historyList = document.getElementById('history-list');
+document.getElementById('btn-history').addEventListener('click', function () {
+    const nHistory = document.getElementById('noakhali-add-money');
+    const fHistory = document.getElementById('feni-add-money');
+    const qHistory = document.getElementById('quota-add-money');
 
-    historyList.innerHTML = '';
+    const nHistoryAmount = parseFloat(nHistory.value);
+    const fHistoryAmount = parseFloat(fHistory.value);
+    const qHistoryAmount = parseFloat(qHistory.value);
 
-    donationHistory.forEach(donation => {
-        const listItem = document.createElement('li');
-        listItem.textContent = `Donated ${donation.amount} BDT to ${donation.cause}`;
-        historyList.appendChild(listItem);
-    });
-
-    historySection.classList.remove('hidden');
 });
