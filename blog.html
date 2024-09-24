@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Blog</title>
+</head>
+<body>
+    <header class="sticky top-0">
+        <nav class="bg-amber-50 navbar">
+            <div class="navbar-start">
+                <a href="./index.html"><button class="btn bg-lime-300">Home</button></a>
+            </div>
+            <div class="navbar-center">
+              <img src="./images/logo.png" alt="">
+              <a class="text-xl">Donate Banagladesh</a>
+            </div>
+            <div class="navbar-end">
+              <img src="./images/coin.png" alt="">
+              <h3>5500 BDT</h3>
+            </div>
+          </nav>
+    </header>
+    <main class="p-14">
+        <h1 class="text-4xl font-bold">Important FAQ</h1><br>
+        <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" checked="checked" />
+            <div class="collapse-title text-xl font-medium">What is DOM ?</div>
+            <div class="collapse-content">
+              <p>the DOM (Document Object Model) is a programming interface that represents the structure of an HTML or XML document as a tree-like structure. This allows you to access and manipulate the elements, attributes, and content of a web page using JavaScript code.</p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">How do I get a specific element from the DOM?</div>
+            <div class="collapse-content">
+              <p>The getElementById() method of the Document interface returns an Element object representing the element whose id property matches the specified string. </p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">what is event delegation in context of dom ?</div>
+            <div class="collapse-content">
+              <p>Event delegation in the Document Object Model (DOM) is a technique that allows developers to handle events at a higher level in the DOM than the element that triggered the event.</p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">how do you manipulate an element's attribute in dom?</div>
+            <div class="collapse-content">
+              <p>Element: setAttribute() method. The setAttribute() method of the Element interface sets the value of an attribute on the specified element.</p>
+            </div>
+          </div>
+    </main>
+</body>
+</html>
