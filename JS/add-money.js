@@ -22,7 +22,6 @@ function addDonation(inputFieldId, addMoneyId, modalId, causeName) {
         AddMoney.textContent = (currentAddMoney + donationAmount);
         totalAddedMoney = AddMoney.textContent;
         availableBalance.textContent = (currentBalance - donationAmount);
-        inputAddMoney.value = '';
         modal.showModal();
         return
     }
